@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="signup-container" id="signupcontainer">
+            <h1>SignUp</h1>
+            <form  id="signupForm">
+                <input type="text" name="" id="SignUpusername" reqiured placeholder="Username"><br>
+                <input type="email" name="" id="email" placeholder="Email"><br>
+                <input type="password" name="" id="SignUppwd" required placeholder="Password">
+            </form>
+            <button id="signupbtn" type="submit">SignUp</button><br>
+            <span id="loginlink">Already have an account? <a href="#">Login</a></span>
+        </div>
+        <div class="login-container" id="logincontainer">
+            <h1>Login</h1>
+            <form  id="loginForm">
+                <input type="text" name="" id="loginUsername" reqiured placeholder="Username"><br>
+                <input type="password" name="" id="loginPwd" required placeholder="Password">
+            </form>
+            <button id="loginbtn" type="submit">Login</button><br>
+            <span id="signuplink">Don't have an account? <a href="#">SignUp</a></span>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
